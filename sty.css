@@ -1,0 +1,346 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+html{
+    font-size:16px;
+}
+
+body{
+    line-height:1.6;
+}
+
+/* header */
+
+header{
+    position:sticky;
+    top:0;
+    background:white;
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 5%;
+    color:black;
+}
+
+.intro{
+    display:flex;
+    align-items:center;
+    margin-right:auto;
+}
+
+/* restrict logo image*/
+.intro img{
+    height:50px;
+    width:50px;
+}
+
+h2{
+    margin-top:-10px;
+    font-size:50px;
+}
+
+pre{
+    margin-top: 10px;
+    margin-left: -20px;
+    font-size:20px;
+    font-weight:700;
+    line-height:1.2;
+}
+
+.navbar ul{
+    display:flex;
+    list-style:none;
+}
+
+.navbar ul li{
+    margin-top:10px;
+    font-size:20px;
+    margin-left:40px;
+}
+
+.navbar a{
+    color:black;
+    text-decoration:none;
+}
+
+.navbar a:hover{
+    color:orange;
+}
+
+#reg{
+    background-color:orange;
+    color:white;
+    height:50px;
+    border-radius:10px;
+    padding:8px 15px;
+    margin-top: -5px;
+}
+
+.navbar #reg a:hover{
+    color:white;
+}
+
+/* hero section */
+
+.hero{
+    min-height:70vh;
+    display:flex;
+    align-items:center;
+    background-color:black;
+    text-align:center;
+}
+
+.hero button{
+    background:orange;
+    color:white;
+    border:none;
+    padding:5px 20px;
+    margin-top:30px;
+    cursor:pointer;
+    height:50px;
+    font-size:1.5rem;
+    margin-right:20px;
+    border-radius:10px;
+}
+
+#btntwo{
+    background:black;
+    color:white;
+    border:1px solid #fafafa;
+}
+
+.tags{
+    margin-left:100px;
+    max-width:600px;
+}
+
+.tags h1{
+    font-size:50px;
+    color:white;
+}
+
+#headone{
+    text-align:left;
+    margin-top:10%;
+}
+
+#headtwo{
+    text-align:left;
+    color:orange;
+}
+
+.tags p{
+    color:white;
+    font-size:22px;
+    text-align:left;
+}
+
+
+
+#home img{
+    height:70vh;
+    max-width:50%;
+    object-fit:cover;
+    margin-left:auto;
+}
+
+/* about section */
+
+.modelhead{
+    display:flex;
+    justify-content:center;
+}
+
+.modelhead img{
+    margin-top: -35px;
+}
+
+.about p{
+    font-size:22px;
+}
+
+/* services section */
+
+.services{
+    padding:50px;
+    background:#fafafa;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:6px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    width:300px;
+    margin:20px;
+    height: 50vh;
+}
+
+.card img{
+    height: 50px;
+    width: 50px;
+}
+
+.card h3{
+    font-size:26px;
+}
+
+.card p{
+    font-size:20px;
+}
+
+/* community section */
+
+.community{
+    width: 40%;
+}
+
+.community div{
+    display:flex;
+}
+
+.servehead h2{
+    font-size: 40px;
+}
+
+.servehead img{
+    margin-top: -30px;
+    width: 100px;
+}
+
+.sone{
+    margin-top:20px;
+}
+
+.sone img{
+    height: 50px;
+    width: 50px;
+}
+
+.sone p{
+    font-size:22px;
+    margin-left:30px;
+    margin-top:10px;
+}
+
+/* contact section */
+
+.contact{
+    max-width:600px;
+    width:70%;
+}
+
+.conthead{
+    display:flex;
+    flex-direction: column;
+}
+
+.conthead h2{
+    font-size: 40px;
+}
+
+#ctwo{
+    color:orange;
+    margin-left:7px;
+}
+
+.lastsec{
+    display:flex;
+    justify-content:space-around;
+    background-color:beige;
+}
+
+.contact p{
+    font-size:22px;
+}
+
+.inpbox{
+    display:flex;
+    flex-direction:column;
+}
+
+.inpbox input{
+    width:100%;
+    margin-top:20px;
+    height:50px;
+    border-radius:10px;
+    font-size:1.2rem;
+    padding:10px;
+    background-color:black;
+    color:orange;
+}
+
+#contactForm button{
+    width:200px;
+    margin-top:20px;
+    height:50px;
+    border-radius:10px;
+    font-size:1.2rem;
+    padding:10px;
+    background-color:orange;
+    color:black;
+    border:none;
+}
+
+/* common section styling */
+
+.community,
+.about,
+.contact{
+    padding:50px;
+    text-align:center;
+}
+
+/* footer */
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+/* responsive design */
+
+@media (max-width:768px){
+
+.navbar ul{
+    display:none;
+}
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+#home img{
+    width:100%;
+    height:auto;
+}
+
+.cards{
+    flex-direction:column;
+    align-items:center;
+}
+
+.lastsec{
+    flex-direction:column;
+    align-items:center;
+}
+}
