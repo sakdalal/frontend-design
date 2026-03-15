@@ -1,0 +1,280 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    line-height:1.6;
+}
+
+
+/* header */
+
+header{
+    position:sticky;
+    top:0;
+    background:white;
+}
+
+.navbar{
+    display:flex;
+    padding:10px 1% 0px 1%;
+    color:black;
+}
+
+.intro{
+    display: flex;
+    margin-right: auto;
+}
+
+img{
+    justify-content: flex-start;
+    height: 60px;
+    width: 60px;
+}
+
+h2{
+    margin-top: -10px;
+    font-size: 50px;
+}
+
+pre{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar ul{
+    display:flex;
+    list-style:none;
+}
+
+.navbar ul li{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left:60px;
+}
+
+.navbar a{
+    align-items: center;
+    justify-content: center;
+    color:black;
+    text-decoration:none;
+}
+
+.navbar a:hover{
+    color:orange;
+}
+
+#reg{
+    background-color: orange;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar #reg a:hover{
+    color: white;
+}
+
+
+.hero{
+    height:70vh;
+    display:flex;
+    background-color: black;
+    text-align:center;
+}
+
+.hero button{
+    background:orange;
+    color:white;
+    border:none;
+    padding:5px 20px;
+    margin-top:30px;
+    cursor:pointer;
+    height: 50px;
+    font-size: 2rem;
+    margin-right: 30px;
+    float: left;
+    border-radius: 10px;
+}
+
+#btntwo{
+    background: black;
+    color: white;
+    border: 1px solid #fafafa;
+    
+}
+
+.tags{
+    margin-bottom: auto;
+    margin-left: 100px;
+}
+
+.tags h1{
+    margin-bottom: auto;
+    font-size: 70px;
+    color: white;
+}
+
+#headone{
+    text-align: left;
+    margin-top: 10%;
+}
+
+#headtwo{
+    text-align: left;
+    color:orange ;
+}
+
+.tags p{
+    color: white;
+    font-size: 35px;
+    text-align: left;
+}
+
+#home img{
+    height: 70vh;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+/* about section */
+
+.modelhead{
+    display: flex;
+    justify-content: center;
+}
+
+.about p{
+    font-size: 30px;
+}
+/*  */
+
+
+/* service section */
+
+
+
+.services{
+    padding:50px;
+    background:#fafafa;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:6px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    width:25%;
+    margin: 30px ;
+}
+
+.card h3{
+    font-size: 30px;
+}
+
+.card p{
+    font-size: 25px;
+}
+
+
+
+/* community section */
+
+.community div{
+    display: flex;
+}
+
+.sone{
+    margin-top: 20px;
+}
+
+.sone p{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+/*  */
+
+/* contact section */
+
+.contact{
+    width: 60%;
+}
+
+.conthead{
+    display: flex;
+}
+
+#ctwo{
+    color: orange;
+    margin-left: 7px;
+}
+
+.lastsec{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+}
+
+.contact p{
+    font-size: 25px;
+}
+
+.inpbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.inpbox input{
+    width: 50%;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: black;
+    color: orange;
+    
+}
+
+#contactForm button{
+    width: 30%;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: orange;
+    color: black;
+    border: none;
+}
+
+/*  */
+.community,
+.about,
+.contact{
+padding:50px;
+text-align:center;
+}
+
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:15px;
+}
